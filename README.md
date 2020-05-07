@@ -8,8 +8,11 @@
 </p>
 
 <br>
-<a id="sobre"></a>
+<a id="sobre"></a
+  
 ## :bookmark: Sobre 
+
+
 <p align="center">
     Tentativa de recriação da interface do Google Classsroom com objetivo de adquirir mais experiencia em React & CSS & FlexBox
 </p>
