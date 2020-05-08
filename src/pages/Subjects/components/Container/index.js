@@ -7,15 +7,14 @@ import Card from '../Card/index'
 import { IoMdHelpCircleOutline } from 'react-icons/io'
 
 // API
-import { loadLists } from '../../../../services/api'
+import tasks from '../../../../services/tasks'
 
 // STYLES
 import {ContainerStyle} from './styles'
 
-const data = loadLists();
 
 export default function Container() {
-  const [subject, setSubject] = useState(data);
+  const [subject, setSubject] = useState(tasks);
 
 
   return (
