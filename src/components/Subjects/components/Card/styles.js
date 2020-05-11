@@ -3,11 +3,19 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
   display: flex;
   margin: 30px;
-  /* width: 100%; */
   max-width: 300px;
   border: 1px solid #ccc;
   border-radius: 10px 10px 0 0;
   border: 1px solid #ccc;
+
+
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+
+  :hover {
+    box-shadow: 4px 4px 5px #0000001a;
+  }
+
 
   header{
     display:flex;
@@ -16,18 +24,17 @@ export const CardContainer = styled.div`
     max-width: 300px;
     min-height: 100px;
 
-    /* url({props.background}); */
-
     background-image: url(${(props) => true ? (props.background) : (props.background)});
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px 10px 5px 5px;
   }
 
-  header p {
+  header a {
 
     max-width: 75%;
     min-width: 220px;
+    text-decoration: none;
 
     white-space: nowrap;
     overflow: hidden;
@@ -37,9 +44,15 @@ export const CardContainer = styled.div`
     font-weight: bold;
     font-size: 1.1rem;
 
+    :hover{
+      text-decoration: underline;
+    }
+
   }
 
-  header p:nth-child(3){
+  header p{
+    margin: 15px;
+    color: white;
     font-size: 0.9rem;
     font-weight: 500;
   }
@@ -74,6 +87,6 @@ export const CardContainer = styled.div`
 
   .footerCard button:hover {
     border-radius: 50%;
-    background: rgba(0,0,0,0.2);
+    background: #0000001a;
   }
 `;

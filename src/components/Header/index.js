@@ -1,7 +1,7 @@
 import React from 'react';
 
 // STYLES
-import {Container} from './styles'
+import { Container , HeaderButton, HeaderAvatar } from './styles'
 
 // ICONS
 import { IoIosMenu , IoMdAdd , IoMdApps } from 'react-icons/io'
@@ -9,20 +9,25 @@ import { IoIosMenu , IoMdAdd , IoMdApps } from 'react-icons/io'
 function Header() {
   return (
   <Container>
-    <button>
+    <HeaderButton>
       <IoIosMenu size={25} color="rgb(77, 72, 72)" />
-    </button>
+    </HeaderButton>
+
     <h1>Classroom Clone</h1>
 
     <div className="groupButtons">
-      <button className="addBtn">
+
+      <HeaderButton className="addBtn">
         <IoMdAdd size={25} color="rgb(77, 72, 72)" />
-      </button>
-      <button className="appBtn">
+      </HeaderButton>
+
+      <HeaderButton className="appBtn">
         <IoMdApps size={25}  color="rgb(77, 72, 72)"/>
-      </button>
-      <img className="imgAvatar" src="https://api.adorable.io/avatars/hi_mom" alt="Adorable Avatar!"/>
+      </HeaderButton>
+
+      <HeaderAvatar className="imgAvatar" src="https://api.adorable.io/avatars/hi_mom" alt="Adorable Avatar!"/>
     </div>
+
   </Container>
   );
 }

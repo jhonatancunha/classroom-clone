@@ -16,22 +16,9 @@ export const Container = styled.div`
     margin-left: auto;
   }
 
-  .groupButtons button{
-    margin-right: 20px;
-  }
-
   h1{
-    margin-left: 20px;
     font-weight: 400;
     font-size: 1.5em;
-  }
-
-  img{
-    border-radius: 50%;
-    max-width: 40px;
-    max-height: 40px;
-    margin-right: 20px;
-    cursor: pointer;
   }
 
   /* MEDIA QUERIES */
@@ -44,4 +31,22 @@ export const Container = styled.div`
     }
   }
 
+`;
+
+export const HeaderButton = styled.button`
+  margin-right: 20px;
+  transition: all 0.2s;
+
+  :hover{
+    border-radius: 50%;
+    background: #0000001a;
+  }
+`;
+
+export const HeaderAvatar = styled.img`
+   border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
 `;

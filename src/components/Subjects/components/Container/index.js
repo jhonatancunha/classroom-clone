@@ -2,9 +2,7 @@ import React, {useState } from 'react'
 
 // COMPONENTS
 import Card from '../Card/index'
-
-// ICONS
-import { IoMdHelpCircleOutline } from 'react-icons/io'
+import ButtonDoubt from '../../../common/ButtonDoubt'
 
 // API
 import tasks from '../../../../services/tasks'
@@ -16,18 +14,12 @@ import {ContainerStyle} from './styles'
 export default function Container() {
   const [subject, setSubject] = useState(tasks);
 
-
   return (
       <ContainerStyle>
-        {subject.map((item) => (
-          <Card key={item.id} data={item} />
-        )
-        )}
 
+        {subject.map( (item) => <Card key={item.id} data={item} /> )}
 
-        <button className="btnDoubt">
-          <IoMdHelpCircleOutline size={25}  color="rgb(77, 72, 72)" />
-        </button>
+        <ButtonDoubt />
 
       </ContainerStyle>
      )

@@ -7,7 +7,6 @@ import ContainerCard from './components/Container'
 function Subjects() {
   return (
     <>
-      <Header />
       <ContainerCard />
     </>
   );
