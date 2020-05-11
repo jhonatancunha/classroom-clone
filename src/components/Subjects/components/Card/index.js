@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import {Link} from 'react-router-dom';
+
 // STYLE
 import { CardContainer } from './styles'
 
@@ -60,7 +62,7 @@ export default function Card(item) {
         <ul>
           <li>
             <header >
-              <a href="/details">{item.data.subject}</a>
+              <Link to="tasks">{item.data.subject}</Link>
 
               <button className="optionsCardBtn">
                 <IoMdMore size={25}  color="white"/>
@@ -85,9 +87,9 @@ export default function Card(item) {
             <IoIosFolderOpen size={25}  color="rgb(77, 72, 72)"/> */}
           {/* </ToolTipButton> */}
 
-            {/* <button>
+            <button>
               <IoIosFolderOpen size={25}  color="rgb(77, 72, 72)"/>
-            </button> */}
+            </button>
 
               <button>
                 <IoMdPerson size={25}  color="rgb(77, 72, 72)"/>

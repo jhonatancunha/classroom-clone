@@ -9,17 +9,15 @@ import TeacherPosts from './components/TeacherPost'
 import Header from './components/Header'
 import DoubtButton from './components/common/ButtonDoubt'
 
+// ROTAS
+import Routes from './routes';
 
 function App() {
   return (
     <>
       <Header />
-      {/* <Subjects /> */}
-      <TeacherPosts />
-
-
-      <DoubtButton />
       <Body />
+      <Routes />
     </>
   );
 }

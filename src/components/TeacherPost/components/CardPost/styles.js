@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 // WRAPPER
 export const Wrapper = styled.section`
-  /* position: relative; */
   max-width: 55vw;
   min-height: 250px;
   background: snow;
@@ -52,6 +51,7 @@ export const Description = styled.p`
   padding-top: 0;
   text-align: justify;
   border-bottom: 1px solid #ccc;
+  font-size: 0.9rem;
 `;
 
 export const ButtonCopyLink = styled.button`
