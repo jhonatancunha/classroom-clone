@@ -9,8 +9,8 @@
 
 <br>
 <a id="sobre"></a
-  
-## :bookmark: Sobre 
+
+## :bookmark: Sobre
 
 
 <p align="center">
@@ -22,6 +22,11 @@
 ## :computer: Profile Page
 <p align="center">
     <img src="imgs/profile.png" alt="">
+</p>
+
+## :pencil: Tasks Page
+<p align="center">
+    <img src="imgs/tasks.png" alt="">
 </p>
 
 

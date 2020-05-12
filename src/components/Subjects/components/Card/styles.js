@@ -9,6 +9,7 @@ export const CardContainer = styled.div`
   border: 1px solid #ccc;
 
 
+
   cursor: pointer;
   transition: box-shadow 0.2s;
 
@@ -27,6 +28,7 @@ export const CardContainer = styled.div`
     background-image: url(${(props) => true ? (props.background) : (props.background)});
     background-repeat: no-repeat;
     background-size: cover;
+
     border-radius: 10px 10px 5px 5px;
   }
 
@@ -90,6 +92,3 @@ export const CardContainer = styled.div`
     background: #0000001a;
   }
 `;
-
-
-// export const Link = styled.a``;

@@ -16,9 +16,15 @@ export const Container = styled.div`
     margin-left: auto;
   }
 
-  h1{
+  a{
+    text-decoration: none;
+    color: black;
     font-weight: 400;
     font-size: 1.5em;
+  }
+
+  a:hover{
+    text-decoration: underline;
   }
 
   /* MEDIA QUERIES */

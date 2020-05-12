@@ -10,6 +10,8 @@ export const Wrapper = styled.section`
   margin-left: auto;
   margin-bottom: 20px;
   min-width: 10%;
+  width: 100%;
+
   @media (max-width: 780px){
     max-width: 90vw;
   }

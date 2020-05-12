@@ -23,6 +23,10 @@ const Input = styled.input`
   padding: 10px;
   border-radius: 50px;
   border: 1px solid #ccc;
+
+  :focus{
+    border: 1px solid green;
+  }
 `;
 
 export default () => {

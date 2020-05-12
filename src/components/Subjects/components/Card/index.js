@@ -59,10 +59,10 @@ export default function Card(item) {
     return (
       <>
       <CardContainer background={item.data.background}>
-        <ul>
+        <ul >
           <li>
             <header >
-              <Link to="tasks">{item.data.subject}</Link>
+              <Link to={`tasks/${item.data.id}`} >{item.data.subject}</Link>
 
               <button className="optionsCardBtn">
                 <IoMdMore size={25}  color="white"/>
@@ -98,7 +98,6 @@ export default function Card(item) {
             </div>
           </li>
         </ul>
-
       </CardContainer>
 
   </>

@@ -54,12 +54,13 @@ const ReplyButton = styled.button`
   top: 30px;
 `;
 
-export default () =>{
+export default ({data}) =>{
+
 return (
   <Wrapper>
-    <Avatar src="https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/s40-c-fbw=1/photo.jpg" />
-    <Name>Jhonatan Cunha  <Date>11 de maio.</Date> </Name>
-    <CommentText>Estilizando comentarios!</CommentText>
+    <Avatar src={data.avatar} />
+<Name>{data.person_name}  <Date>{data.date}</Date> </Name>
+    <CommentText>{data.comment}</CommentText>
 
     <ReplyButton>
       <IoIosUndo size={20} color="#4e4e4e"/>
