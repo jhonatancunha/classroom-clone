@@ -11,8 +11,10 @@ export default createGlobalStyle`
     }
 
     body{
+      padding-top: 5.7rem;
       background: snow;
       font-family: 'Roboto', sans-serif;
+
     }
 
     ul{

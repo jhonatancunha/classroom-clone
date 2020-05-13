@@ -19,14 +19,31 @@
 
 <br>
 
-## :computer: Profile Page
+## :computer: Web View
+
+# :busts_in_silhouette: Profile Page
 <p align="center">
     <img src="imgs/profile.png" alt="">
 </p>
 
-## :pencil: Tasks Page
+# :cool: SideBar Menu
+<p align="center">
+    <img src="imgs/menu.png" alt="">
+</p>
+
+# :pencil: Tasks Page
 <p align="center">
     <img src="imgs/tasks.png" alt="">
+</p>
+
+
+## :iphone: Mobile View
+
+# Profile Page - SideBar Menu - Task Page
+<p align="center">
+    <img src="imgs/mob-profile.png" alt="">
+    <img src="imgs/mob-menu.png" alt="">
+    <img src="imgs/mob-tasks.png" alt="">
 </p>
 
 
@@ -50,5 +67,5 @@ $ yarn start
 
 
 <p align="center">
-Criado com :coffee: por Jhonatan Cunha.
+Criado com :coffee: por :copyright: Jhonatan Cunha.
 </p>

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {Link} from 'react-router-dom'
-
 // ICONS
 import { IoMdLink } from 'react-icons/io'
 

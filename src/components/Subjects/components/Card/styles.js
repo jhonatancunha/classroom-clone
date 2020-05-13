@@ -7,7 +7,7 @@ export const CardContainer = styled.div`
   border: 1px solid #ccc;
   border-radius: 10px 10px 0 0;
   border: 1px solid #ccc;
-
+  position: relative;
 
 
   cursor: pointer;
@@ -46,6 +46,9 @@ export const CardContainer = styled.div`
     font-weight: bold;
     font-size: 1.1rem;
 
+    margin-bottom: 0;
+
+
     :hover{
       text-decoration: underline;
     }
@@ -57,6 +60,7 @@ export const CardContainer = styled.div`
     color: white;
     font-size: 0.9rem;
     font-weight: 500;
+    max-width: 181px;
   }
 
   img{
@@ -80,9 +84,16 @@ export const CardContainer = styled.div`
     display: flex;
     justify-content: flex-end;
     border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    align-items: end;
+    height: 60px;
+    width: 100%;
   }
 
   .footerCard button {
+    position: relative;
+    right: 5px;
     margin: 15px;
     transition: all 0.2s;
   }

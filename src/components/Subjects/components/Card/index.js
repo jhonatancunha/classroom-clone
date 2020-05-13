@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 
 import {Link} from 'react-router-dom';
 
@@ -39,9 +38,9 @@ export default function Card(item) {
               <IoIosFolderOpen size={25}  color="rgb(77, 72, 72)"/>
             </button>
 
-              <button>
-                <IoMdPerson size={25}  color="rgb(77, 72, 72)"/>
-              </button>
+            <button>
+              <IoMdPerson size={25}  color="rgb(77, 72, 72)"/>
+            </button>
 
             </div>
           </li>

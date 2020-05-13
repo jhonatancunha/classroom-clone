@@ -6,8 +6,14 @@ export const Container = styled.div`
   height: 60px;
   align-items: center;
   padding-left: 20px;
+  background:snow;
+  z-index: 10;
 
+  position: fixed;
+  background: snow;
+  width: 100vw;
   border-bottom: 1px solid #ccc;
+  top: 0;
 
   .groupButtons{
     display: flex;

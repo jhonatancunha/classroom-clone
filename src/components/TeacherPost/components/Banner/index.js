@@ -14,19 +14,24 @@ const Banner = styled.div`
 const Header = styled.div`
   position: relative;
   max-width: 80vw;
-  min-height: 250px;
   background: url(${({background}) => true ? (background): (background)});
   background-size: cover;
   background-repeat: no-repeat;
 
   border-radius: 8px;
+
+
 `
 
 const Title = styled.p`
-  padding: 25px 0px 5px 25px;
+  padding: 25px 10px 32px 25px;
   font-weight: bold;
   color: snow;
   font-size: 2rem;
+
+  @media (max-width: 450px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const Teacher = styled.p`
@@ -34,6 +39,12 @@ const Teacher = styled.p`
   color: snow;
   font-size: 1.2rem;
   text-transform: uppercase;
+
+  padding-bottom: 30px;
+
+  @media (max-width: 450px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const DetailButton = styled.button`
@@ -51,12 +62,18 @@ const DetailBanner = styled.div`
   position: relative;
   background: snow;
   box-shadow: 3px 3px 5px #00000057;;
-  height: 90px;
+  height: 100%;
   border-radius: 0 0 8px 8px;
   padding: 20px;
   line-height: 30px;
 
+`
 
+const DivButton = styled.div`
+    width: 100%;
+    height: 20px;
+    position: relative;
+    bottom: 0;
 `
 
 export default (props) =>{
@@ -70,9 +87,12 @@ export default (props) =>{
         <Title>{props.name}</Title>
         <Teacher>{props.teacher}</Teacher>
 
-        <DetailButton status={showDetail} onClick={ (e) => onClick(e)}>
-          <IoIosArrowDown size={25} color="snow" />
-        </DetailButton>
+        <DivButton>
+          <DetailButton status={showDetail} onClick={ (e) => onClick(e)}>
+              <IoIosArrowDown size={25} color="snow" />
+          </DetailButton>
+        </DivButton>
+
 
 
       </Header>

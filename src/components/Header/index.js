@@ -5,10 +5,12 @@ import {Link} from 'react-router-dom'
 import { Container , HeaderButton, HeaderAvatar } from './styles'
 
 // ICONS
-import { IoIosMenu , IoMdAdd , IoMdApps } from 'react-icons/io'
+import {  IoMdAdd , IoMdApps } from 'react-icons/io'
 
 // MENUS
-import HamburguerMenu from '../common/MenuHamburguer'
+import HamburguerMenu from '../common/SideMenuBar'
+
+import {HamburguerButton} from './style-hamburguer-button'
 
 function Header() {
   const [showHamburguer, setShowHamburguer] = useState(false);
@@ -19,9 +21,12 @@ function Header() {
   <>
     <Container>
 
-      <HeaderButton onClick={(e) => onClickHamburguer(e)}>
-        <IoIosMenu size={25} color="rgb(77, 72, 72)" />
-      </HeaderButton>
+      <HamburguerButton show={showHamburguer} onClick={(e) => onClickHamburguer(e)}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </HamburguerButton>
+
 
       <Link to="/">Classroom Clone</Link>
 
