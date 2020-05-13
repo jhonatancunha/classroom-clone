@@ -41,17 +41,7 @@
 
 ### Profile Page - SideBar Menu - Task Page
 <p align="center">
-    <img src="imgs/mob-profile.png" alt="">
-</p>
-
-### :cool: SideBar Menu
-<p align="center">
-  <img src="imgs/mob-menu.png" alt="">
-</p>
-
-### :pencil: Tasks Page
-<p align="center">
-   <img src="imgs/mob-tasks.png" alt="">
+    <img src="imgs/mob-PROFILE-TASK-MENU.png" alt="">
 </p>
 
 
