@@ -2,9 +2,9 @@
 
 <h1 align="center">Classroom System - ReactJS [W.I.P]<h1>
 <p align="center">
-<img src="https://img.shields.io/github/repo-size/jhonatancunha/classroom-system" alt="">
-<img src="https://img.shields.io/github/license/jhonatancunha/classroom-system" alt="">
-<img src="https://img.shields.io/github/last-commit/jhonatancunha/classroom-system?style=plastic" alt="">
+<img src="https://img.shields.io/github/repo-size/jhonatancunha/classroom-clone" alt="">
+<img src="https://img.shields.io/github/license/jhonatancunha/classroom-clone" alt="">
+<img src="https://img.shields.io/github/last-commit/jhonatancunha/classroom-clone" alt="">
 </p>
 
 <br>
