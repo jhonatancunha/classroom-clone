@@ -1,6 +1,6 @@
 <img src="https://miro.medium.com/max/4000/1*-dy70uysIH0N9MfVVitzgg.png" alt="">
 
-<h1 align="center">Google Classroom Clone - ReactJS [W.I.P]<h1>
+<h1 align="center">Classroom System - ReactJS [W.I.P]<h1>
 <p align="center">
 <img src="https://img.shields.io/github/repo-size/jhonatancunha/classroom-clone" alt="">
 <img src="https://img.shields.io/github/license/jhonatancunha/classroom-clone" alt="">
@@ -19,32 +19,42 @@
 
 <br>
 
-## :computer: Web View
+# :computer: Web View
 
-# :busts_in_silhouette: Profile Page
+### :busts_in_silhouette: Profile Page
 <p align="center">
     <img src="imgs/profile.png" alt="">
 </p>
 
-# :cool: SideBar Menu
+### :cool: SideBar Menu
 <p align="center">
     <img src="imgs/menu.png" alt="">
 </p>
 
-# :pencil: Tasks Page
+### :pencil: Tasks Page
 <p align="center">
     <img src="imgs/tasks.png" alt="">
 </p>
 
 
-## :iphone: Mobile View
+# :iphone: Mobile View
 
-# Profile Page - SideBar Menu - Task Page
+### Profile Page - SideBar Menu - Task Page
 <p align="center">
     <img src="imgs/mob-profile.png" alt="">
-    <img src="imgs/mob-menu.png" alt="">
-    <img src="imgs/mob-tasks.png" alt="">
 </p>
+
+### :cool: SideBar Menu
+<p align="center">
+  <img src="imgs/mob-menu.png" alt="">
+</p>
+
+### :pencil: Tasks Page
+<p align="center">
+   <img src="imgs/mob-tasks.png" alt="">
+</p>
+
+
 
 
 
