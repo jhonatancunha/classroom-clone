@@ -39,7 +39,8 @@
 
 # :iphone: Mobile View
 
-### Profile Page - SideBar Menu - Task Page
+### Profile Page
+<p align="center">SideBar Menu - Task Page</p>
 <p align="center">
     <img src="imgs/mob-PROFILE-TASK-MENU.png" alt="">
 </p>
